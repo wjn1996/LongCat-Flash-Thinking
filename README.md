@@ -148,7 +148,7 @@ In multi-turn scenarios, the prefix is constructed by concatenating the context 
 SYSTEM:{system_prompt} [Round 0] USER:{query} /think_on ASSISTANT:{response}</longcat_s>... [Round N-1] USER:{query} /think_on ASSISTANT:{response}</longcat_s> [Round N] USER:{query} /think_on ASSISTANT:
 ```
 
-Here, $N$ denotes the $N+1$ -th round of user queries, with indexing starting from zero.
+Here, N denotes the N-th round of user queries, with indexing starting from zero.
 
 #### ToolCall
 
